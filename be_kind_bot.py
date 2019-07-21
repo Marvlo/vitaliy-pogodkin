@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 
 def start(bot, update):
-    update.message.reply_text('Всем добра и быть добрее!')
+    update.message.reply_text('Ты зачем Виталю ударил?!')
 
 
 def pass_location(bot, update):
