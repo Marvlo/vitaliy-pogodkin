@@ -24,7 +24,7 @@ def pass_location(bot, update):
     for date, temp, condition in result:
         day = datetime.strptime(date, '%Y-%m-%d')
         order = day.weekday()
-        week = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
+        week = ['Понедельник', 'Вторник', 'Среда', 'Отымалка', 'Пятница', 'Суббота', 'Воскресенье']
         week_day = week[order]
 
         sign = '+' if temp > 0 else ''
